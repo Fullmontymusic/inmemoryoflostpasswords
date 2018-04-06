@@ -8,7 +8,7 @@ body {
     color: blue;
     font-size: 50px;
     font-family: Avertasemibold;
-    width: 30%;
+    width: 450px;
     border: 2px solid white;
 }
 
@@ -67,5 +67,25 @@ a:visited {
     bottom: 0;
     width: 100%;
     color: black;
+
+}
+
+@media only screen and (max-device-width: 667px) {
+
+    .button {
+        color: blue;
+        font-size: 100px;
+        font-family: Avertasemibold;
+        width: 800px;
+        border: 2px solid white;
+    }
+
+    h2 {
+        color: black;
+        margin-top: 50px;
+        font-size: 50px;
+        font-family: Avertasemibold;
+        text-align: center;
+    }
 
 }
