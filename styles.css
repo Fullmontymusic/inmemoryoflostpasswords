@@ -1,0 +1,71 @@
+  @font-face { font-family: Avertasemibold; src: url('avertastd-semibold-webfont.ttf'); }
+
+body {
+    background-color: white;
+}
+
+.button {
+    color: blue;
+    font-size: 50px;
+    font-family: Avertasemibold;
+    width: 30%;
+    border: 2px solid white;
+}
+
+.button:hover {
+    border: 2px solid blue;
+
+}
+
+.button:active {
+  box-shadow: 0 3px blue;
+  box-shadow: 0 5px blue;
+  transform: translateY(4px);
+}
+
+p {
+    color: blue;
+    font-size: 40px;
+    font-family: Avertasemibold;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: Avertasemibold;
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
+.forgotten-passwords {
+    margin: 150px auto 80px;
+    width: 550px;
+    height: 114px;
+    border-bottom: solid 1px;
+}
+
+.forgotten-passwords span{
+  color: blue;
+  font-size: 100px;
+  font-family: Avertasemibold;
+}
+
+a:visited {
+    color: blue;
+}
+
+.footer {
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    width: 100%;
+    color: black;
+
+}
